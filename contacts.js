@@ -39,13 +39,6 @@ const removeContact = async contactId => {
   } catch (error) {
     console.log(`Something went wrong. ${error.message}`);
   }
-  //   try {
-  //     const contacts = await listContacts();
-  //     const newContactsList = contacts.filter(({ id }) => String(id) !== String(contactId));
-  //     await fs.writeFile(contactsPath, JSON.stringify(newContactsList, null, 4));
-  //   } catch (error) {
-  //     console.log(`Something went wrong. ${error.message}`);
-  //   }
 };
 
 const addContact = async (name, email, phone) => {
