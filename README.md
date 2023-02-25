@@ -11,7 +11,7 @@ https://ibb.co/hR1xdqm
 # Додаємо контакт
 node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="322-22-22"
 
-https://ibb.co/p1X4VmC
+https://ibb.co/tPqC5dz
 
 # Видаляємо контакт
 node index.js --action="remove" --id=3
